@@ -940,7 +940,7 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 .dark label.label-muted { color: #777; }
 
 .dark #contact-form-overlay,
-.dark #contact-form-overlay-mini { background-color: #383838; }
+.dark #contact-form-overlay-mini { background-color: #283d4d; }
 
 .dark .title-block > span { color: #999; }
 
@@ -1020,7 +1020,7 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 
 #footer.dark,
 .dark #footer {
-	background-color: #333;
+	background-color: #283d4d;
 	color: #CCC;
 	border-top-color: rgba(0,0,0,0.2);
 }
