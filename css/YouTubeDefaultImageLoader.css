@@ -1,0 +1,54 @@
+/* BASED ON :
+ * START Fast & Agile YouTube Embed by Schoberg.net
+ */
+.youtubeVideoLoader { /* continer (responsive) */
+  position: relative;
+  cursor: pointer;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0px;
+  clear:both;
+  margin-bottom: 10px;
+}
+.youtubeVideoLoader:hover { /* continer (responsive) */
+background: rgba(0, 0, 0, 0.3);
+}
+
+.youtubeVideoLoader::after { /* Play Triangle */
+  content: '';
+  width: 0;
+  height: 0;
+  line-height:0px;
+  display:block;
+  border-style: solid;
+  border-width: 20px 0 20px 40px;
+  margin: -20px 0 0 -15px;
+  border-color: transparent transparent transparent #333;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 0;
+  width: 0;
+  z-index:2;
+}
+/* END Fast & Agile YouTube Embed by Schoberg.net */
+/* Modal Styles */
+#videoModalContainer{
+	  width:100%;
+	  padding: 0px;
+	  top:0;
+	  left:0;
+}
+.modal-content
+{
+	background-color: #444;
+}
+.modal-body
+{
+	padding: 0px;
+}
+.modal-footer
+{
+	padding:1em;
+	border-top: none;
+	background-color: #444;
+}
